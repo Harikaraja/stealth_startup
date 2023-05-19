@@ -56,7 +56,7 @@
                 <br /><br /><br/>
                 <label>Password <ion-icon name="lock-closed-outline"></ion-icon></label>
                 <br />
-                <input type="password" id="password" name="password" placeholder="Confirm Password" required
+                <input type="password" id="password" name="password" placeholder="Password" required
                     autocomplete="off" />
                 <br /><br />
                 <a href="Forgotpassword.php" class="forgot">Forgot Password </a><br /><br/>

@@ -27,7 +27,7 @@
             $exists=false;
             
             if(($password == $cpassword) && $exists==false){
-                echo "enteres";
+                //echo "enteres";
                 $sql = "INSERT INTO `signup` ( `user_email`, `user_pass`,`user_name`,`phone`) VALUES ('$username', '$password','$name','$phone')";
                 $result = mysqli_query($conn, $sql);
                 if ($result){
@@ -44,7 +44,7 @@
 
         <div class="register" id="signupPage">
             <h2>Register Here</h2>
-            <form id="register" method="post" action="index.php"> 
+            <form id="register" method="post" action="index1.php"> 
                 <label>Name</label>
                 <br />
                 <input type="text" name="fname" id="fname" placeholder="Enter your First name" required
